@@ -1,0 +1,193 @@
+{smcl}
+
+{txt}{net "from http://repec.org/bocode":SSC} Stata modules created or revised 2017-12-29 to 2018-01-29
+{hline}
+
+{net "describe http://repec.org/bocode/d/dynpandoc":DYNPANDOC}
+{txt} module creating dynamic documents using dynamic tags and pandoc  
+{txt} Authors: Hua Peng       Req: Stata version 15
+{txt} Created: 2018-01-28
+
+{net "describe http://repec.org/bocode/f/fastreshape":FASTRESHAPE}
+{txt} module for efficient implementation of reshape for big datasets
+{txt} Authors:  Michael Droste       Req: Stata version 13.1
+{txt} Created: 2018-01-24
+
+{net "describe http://repec.org/bocode/v/vallabsave":VALLABSAVE}
+{txt} module to save and load label-only Stata datasets
+{txt} Authors: Roger Newson       Req: Stata version 11
+{txt} Created: 2018-01-18
+
+{net "describe http://repec.org/bocode/h/how_many_imputations":HOW_MANY_IMPUTATIONS}
+{txt} module to determine required number of imputations
+{txt} Authors: Paul T. von Hippel       Req: Stata version 13
+{txt} Created: 2018-01-10
+
+{net "describe http://repec.org/bocode/v/vallabdef":VALLABDEF}
+{txt} module to define value labels from label name, value and label variables
+{txt} Authors: Roger Newson       Req: Stata version 10
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/r/realcomimpute":REALCOMIMPUTE}
+{txt} module to export and import data to the realcomImpute software package
+{txt} Authors: Jonathan Bartlett       Req: Stata version 11
+{txt} Created: 2018-01-10
+
+{net "describe http://repec.org/bocode/h/hamiltonfilter":HAMILTONFILTER}
+{txt} module to calculate the Hamilton Filter for a Single Time Series or for a Panel Dataset
+{txt} Authors: Diallo Ibrahima Amadou       Req: Stata version 14
+{txt} Created: 2018-01-04
+
+{net "describe http://repec.org/bocode/s/smrtbl":SMRTBL}
+{txt} module to produce various tables for putdocx
+{txt} Authors:  Adam Ross Nelson       Req: Stata version 15
+{txt} Created: 2018-01-04
+
+{net "describe http://repec.org/bocode/x/xtcointreg":XTCOINTREG}
+{txt} module for panel data generalization of cointegration regression using fully modified ordinary least squares, dynamic ordinary least squares, and canonical correlation regression methods
+{txt} Authors:  Ravshanbek Khodzhimatov       Req: Stata version 11 and cointreg from SJ 12:3
+{txt} Created: 2018-01-03
+
+{net "describe http://repec.org/bocode/u/ua":UA}
+{txt} module to provide prefix command for unicode utilities
+{txt} Authors: Lian Yujun       Req: Stata version 15
+{txt} Created: 2018-01-03
+
+{net "describe http://repec.org/bocode/x/xtsfkk":XTSFKK}
+{txt} module to estimate endogenous panel stochastic frontier models in the style of Karakaplan and Kutlu
+{txt} Authors: Mustafa Ugur Karakaplan       Req: Stata version 13.1 and estout from SSC (q.v.)
+{txt} Created: 2018-01-01
+
+{net "describe http://repec.org/bocode/w/wyoung":WYOUNG}
+{txt} module to perform multiple testing corrections
+{txt} Authors: Julian Reif       Req: Stata version 12
+{txt} Revised: 2018-01-24
+
+{net "describe http://repec.org/bocode/l/lmdi":LMDI}
+{txt} module to compute Logarithmic Mean Divisia Index (LMDI) Decomposition
+{txt} Authors: Kerry Du       Req: Stata version 12.0
+{txt} Revised: 2018-01-01
+
+{net "describe http://repec.org/bocode/k/kssur":KSSUR}
+{txt} module to calculate Kapetanios, Shin & Snell unit root test statistic along with critical values and p-values
+{txt} Authors: Jesús Otero   Jeremy Smith       Req: Stata version 13
+{txt} Revised: 2018-01-27
+
+{net "describe http://repec.org/bocode/k/ksur":KSUR}
+{txt} module to calculate Kapetanios & Shin unit root test statistic along with finite-sample critical values and p-values
+{txt} Authors: Jesús Otero   Jeremy Smith       Req: Stata version 13
+{txt} Revised: 2018-01-27
+
+{net "describe http://repec.org/bocode/p/plotrpys":PLOTRPYS}
+{txt} module to plot a spectrogram using CSV export from CRExplorer 
+{txt} Authors:     Lutz Bornmann       Req: Stata version 11
+{txt} Revised: 2018-01-24
+
+{net "describe http://repec.org/bocode/i/imperfectiv":IMPERFECTIV}
+{txt} module to estimate bounds with "Imperfect Instrumental Variables" (Nevo and Rosen, 2012)
+{txt} Authors:  Benjamín Matta  Damian Clarke       Req: Stata version 8
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/c/caterpillar":CATERPILLAR}
+{txt} module to generate confidence intervals, Bonferroni-corrected confidence intervals, and null distribution
+{txt} Authors:  Laura Bellows  Paul T. von Hippel       Req: Stata version 13
+{txt} Revised: 2018-01-10
+
+{net "describe http://repec.org/bocode/m/marginscontplot2":MARGINSCONTPLOT2}
+{txt} module to graph margins for continuous predictors
+{txt} Authors: Patrick Royston       Req: Stata version 12.1
+{txt} Revised: 2018-01-04
+
+{net "describe http://repec.org/bocode/a/adfmaxur":ADFMAXUR}
+{txt} module to calculate Leybourne (1995) ADFmax unit root test statistic along with 1, 5 and 10% finite-sample critical values and associated p-values
+{txt} Authors: Jesús Otero  Christopher F Baum       Req: Stata version 13
+{txt} Revised: 2018-01-27
+
+{net "describe http://repec.org/bocode/q/qfactor":QFACTOR}
+{txt} module to perform Q-analysis on Q-sorts using different factor extraction and factor rotation techniques
+{txt} Authors: Noori Akhtar-Danesh       Req: Stata version 12
+{txt} Revised: 2018-01-01
+
+{net "describe http://repec.org/bocode/e/ersur":ERSUR}
+{txt} module to calculate Elliott, Rothenberg & Stock DF-GLS unit root test statistic along with 1, 5 and 10% finite-sample critical values and associated p-values
+{txt} Authors: Jesús Otero  Christopher F Baum       Req: Stata version 13
+{txt} Revised: 2018-01-27
+
+{net "describe http://repec.org/bocode/s/statastates":STATASTATES}
+{txt} module to add US state identifiers to dataset
+{txt} Authors: William L. Schpero       Req: Stata version 10
+{txt} Revised: 2018-01-10
+
+{net "describe http://repec.org/bocode/w/wtd_perc":WTD_PERC}
+{txt} module to calculate percentile of inter-arrival density based on the parametric Waiting Time Distribution (WTD)
+{txt} Authors: Henrik Stovring       Req: Stata version 14
+{txt} Revised: 2018-01-24
+
+{net "describe http://repec.org/bocode/b/boottest":BOOTTEST}
+{txt} module to provide fast execution of the wild bootstrap with null imposed
+{txt} Authors: David Roodman       Req: Stata version 11.2
+{txt} Revised: 2018-01-25
+
+{net "describe http://repec.org/bocode/a/ascol":ASCOL}
+{txt} module to convert frequency of stock returns or stock prices
+{txt} Authors: Attaullah Shah       Req: Stata version 10
+{txt} Revised: 2018-01-01
+
+{net "describe http://repec.org/bocode/i/ipdpower":IPDPOWER}
+{txt} module to perform simulation based power calculations for mixed effects modelling
+{txt} Authors: Evangelos Kontopantelis       Req: Stata version 12
+{txt} Revised: 2018-01-10
+
+{net "describe http://repec.org/bocode/k/kalpha":KALPHA}
+{txt} module to compute Krippendorff's Alpha-Reliability
+{txt} Authors: Daniel Klein       Req: Stata version 11.2
+{txt} Revised: 2018-01-01
+
+{net "describe http://repec.org/bocode/i/ipdforest":IPDFOREST}
+{txt} module to produce forest plot for individual patient data IPD meta-analysis (one stage)
+{txt} Authors: Evangelos Kontopantelis  David Reeves       Req: Stata version 11.2
+{txt} Revised: 2018-01-24
+
+{net "describe http://repec.org/bocode/c/cqiv":CQIV}
+{txt} module to perform censored quantile instrumental variables regression
+{txt} Authors: Victor Chernozhukov  Ivan Fernandez-Val  Sukjin Han  Amanda Kowalski       Req: Stata version 10
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/t/texsave":TEXSAVE}
+{txt} module to save a dataset in LaTeX format
+{txt} Authors: Julian Reif       Req: Stata version 10
+{txt} Revised: 2018-01-10
+
+{net "describe http://repec.org/bocode/c/cmp":CMP}
+{txt} module to implement conditional (recursive) mixed process estimator
+{txt} Authors: David Roodman       Req: Stata version 11 and package ghk2 (q.v.)
+{txt} Revised: 2018-01-10
+
+{net "describe http://repec.org/bocode/l/lablist":LABLIST}
+{txt} module to list value labels (if present) for one or more variables
+{txt} Authors: Roger Newson       Req: Stata version 10.0
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/r/radar":RADAR}
+{txt} module to draw radar (spider) plots
+{txt} Authors: Adrian Mander       Req: Stata version 11.0
+{txt} Revised: 2018-01-03
+
+{net "describe http://repec.org/bocode/s/spmap":SPMAP}
+{txt} module to visualize spatial data
+{txt} Authors: Maurizio Pisati       Req: Stata version 9.2
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/d/descsave":DESCSAVE}
+{txt} module to export data set and machine-readable codebook
+{txt} Authors: Roger Newson       Req: Stata version 10.0
+{txt} Revised: 2018-01-18
+
+{net "describe http://repec.org/bocode/r/ralloc":RALLOC}
+{txt} module to design randomized controlled trials
+{txt} Authors: Philip Ryan       Req: Stata version 9.0 (ralloc), version 6.0 (ralloc_678)
+{txt} Revised: 2018-01-28
+
+{hline}
+{txt} End of recent additions and updates
+
